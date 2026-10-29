@@ -1,4 +1,4 @@
-# v4训练：原29特征（去weekday）+11基本面+披露天数，共41特征；同口径评估
+# v4训练：飙升监测策略29特征+11基本面+披露天数，共41特征；同口径评估
 import pickle, glob, os, json, numpy as np, pandas as pd
 from sklearn.ensemble import HistGradientBoostingClassifier
 from sklearn.metrics import roc_auc_score, average_precision_score
