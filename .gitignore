@@ -1,0 +1,11 @@
+# 数据与模型（本仓库只收源码）
+*.pkl
+*.npy
+*.csv
+*.log
+*.bak_*
+__pycache__/
+daily_bars/
+daily_features/
+daily_output/
+daily_base_arrays/
